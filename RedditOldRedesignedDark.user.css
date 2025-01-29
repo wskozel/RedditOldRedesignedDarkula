@@ -167,7 +167,7 @@
         #redesign-beta-optin-btn {
           display: none;
         }
-
+                 
         /* Hide "Edit" button at the end of subreddit headers */
         #sr-more-link {
           display: none;
@@ -618,6 +618,11 @@
       }
     }
 
+    /*Hide login prompt*/
+    .infobar.listingsignupbar{
+              display: none !important;
+      }
+      
     /* Link/comment/message */
     .thing {
 
