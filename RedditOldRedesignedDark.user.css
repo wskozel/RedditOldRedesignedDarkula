@@ -14,22 +14,22 @@
 
   /* COLOR DEFINITIONS */
   :root {
-    --gray-0: #121212;
-    --gray-1: #232323;
-    --gray-2: #343434;
-    --gray-3: #454545;
-    --gray-a0: #1e1e1e;
-    --blue-0: #4ac;
-    --blue-1: #369;
-    --blue-2: #2c89f5;
-    --red: #d3391a;
-    --dark-red: #440202;
-    --text-normal: hsla(0, 100%, 100%, 0.8);
-    --text-normal-hover: #fff;
-    --text-med: hsl(0, 0%, 60%);
-    --text-dark: hsl(0, 0%, 45%);
+    --gray-0: #282a36;
+    --gray-1: #343746;
+    --gray-2: #44475a;
+    --gray-3: #51546d;
+    --gray-a0: #191a21;
+    --blue-0: #6272a4;
+    --blue-1: #5b6ecb;
+    --blue-2: #8be9fd;
+    --red: #ff5555;
+    --dark-red: #bd2f2f;
+    --text-normal: hsla(231, 15%, 85%, 0.8); /* Dracula foreground */
+    --text-normal-hover: #f8f8f2;
+    --text-med: hsl(231, 15%, 65%);
+    --text-dark: hsl(231, 15%, 45%);
     --text-dark-hover: var(--text-normal);
-    --url: hsla(200, 20%, 60%, 0.8);
+    --url: hsla(189, 85%, 65%, 0.8); /* Dracula cyan */
   }
 
   body[class] {
